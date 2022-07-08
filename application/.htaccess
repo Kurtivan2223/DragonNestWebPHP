@@ -1,0 +1,6 @@
+<IfModule auth_module>
+	Require all denied
+</IfModule>
+<IfModule !auth_module>
+	Deny from all
+</IfModule>
